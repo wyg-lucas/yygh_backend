@@ -22,4 +22,5 @@ public class HospitalSetServiceImpl extends ServiceImpl<HospitalSetMapper, Hospi
 
     @Autowired
     private HospitalSetMapper hospitalSetMapper;
+    
 }

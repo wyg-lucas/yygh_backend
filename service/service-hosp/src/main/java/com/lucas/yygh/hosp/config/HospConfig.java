@@ -23,4 +23,5 @@ public class HospConfig {
     public PaginationInterceptor paginationInterceptor() {
         return new PaginationInterceptor();
     }
+    
 }

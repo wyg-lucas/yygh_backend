@@ -20,7 +20,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 @Data
 @ApiModel(description = "Hospital")
 @Document("Hospital")
-public class Hospital extends BaseEntity {
+public class Hospital {
 
     private static final long serialVersionUID = 1L;
 
