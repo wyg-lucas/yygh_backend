@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e760f72f-0a6b-438a-b4a5-c11c2fb39304" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/lucas/yygh/model/cmn/Dict.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-cmn/src/main/java/com/lucas/yygh/cmn/config/CmnConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-cmn/src/main/java/com/lucas/yygh/cmn/controller/DictController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-cmn/src/main/java/com/lucas/yygh/cmn/mapper/DictMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-cmn/src/main/java/com/lucas/yygh/cmn/service/DictService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-cmn/src/main/java/com/lucas/yygh/cmn/service/impl/DictServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service-cmn/src/main/java/com/lucas/yygh/cmn/ServiceCmnApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-cmn/src/main/java/com/lucas/yygh/cmn/ServiceCmnApplication.java" afterDir="false" />
-    </list>
+    <list default="true" id="e760f72f-0a6b-438a-b4a5-c11c2fb39304" name="Changes" comment="开始开发数据字典" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -67,7 +59,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.33558342" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.statistic.project.settings" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -126,7 +118,7 @@
       <workItem from="1636350715251" duration="7160000" />
       <workItem from="1636374019583" duration="14622000" />
       <workItem from="1636512927309" duration="3437000" />
-      <workItem from="1636529322872" duration="2649000" />
+      <workItem from="1636529322872" duration="3947000" />
     </task>
     <servers />
   </component>
@@ -144,5 +136,13 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="开始开发数据字典" />
+    <option name="LAST_COMMIT_MESSAGE" value="开始开发数据字典" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
