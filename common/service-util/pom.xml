@@ -21,11 +21,13 @@
     </properties>
 
     <dependencies>
+
         <dependency>
             <groupId>com.lucas.yygh</groupId>
             <artifactId>common-util</artifactId>
             <version>1.0</version>
         </dependency>
+
         <!-- redis -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
