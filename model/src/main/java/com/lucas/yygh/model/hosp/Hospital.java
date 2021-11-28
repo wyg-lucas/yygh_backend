@@ -2,6 +2,7 @@ package com.lucas.yygh.model.hosp;
 
 import com.alibaba.fastjson.JSONObject;
 import com.lucas.yygh.model.base.BaseEntity;
+import com.lucas.yygh.model.base.BaseMongoEntity;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
@@ -20,7 +21,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 @Data
 @ApiModel(description = "Hospital")
 @Document("Hospital")
-public class Hospital {
+public class Hospital extends BaseMongoEntity {
 
     private static final long serialVersionUID = 1L;
 
@@ -62,7 +63,7 @@ public class Hospital {
     @ApiModelProperty(value = "预约规则")
     private BookingRule bookingRule;
 
-    public void setbookingRule(String bookingRule) {
+    public void setBookingRule(String bookingRule) {
         this.bookingRule = JSONObject.parseObject(bookingRule, BookingRule.class);
     }
 

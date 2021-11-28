@@ -87,7 +87,7 @@ public class ApiController extends BaseController {
 								 @RequestParam(defaultValue = "10") int pageSize,
 								 HttpServletRequest request,RedirectAttributes redirectAttributes) {
 		try {
-			HospitalSet hospitalSet = hospitalSetMapper.selectById(1);
+			HospitalSet hospitalSet = hospitalSetMapper.selectById(2);
 			if(null == hospitalSet || StringUtils.isEmpty(hospitalSet.getHoscode()) || StringUtils.isEmpty(hospitalSet.getSignKey())) {
 				this.failureMessage("先设置医院code与签名key", redirectAttributes);
 				return "redirect:/hospitalSet/index";
